@@ -1,0 +1,40 @@
+{
+  "name": "react-love",
+  "version": "1.0.0",
+  "description": "React Love Components",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon",
+    "client": "cd client && npm start",
+    "project":"concurrently \"npm run server\" \"npm run client\""
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anantabastola/react-love.git"
+  },
+  "keywords": [
+    "React",
+    "Express",
+    "BoilerPlate",
+    "Starter",
+    "Pack",
+    "React",
+    "Node",
+    "Starter",
+    "Pack"
+  ],
+  "author": "Ananta Bastola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anantabastola/react-express-starter-pack/issues"
+  },
+  "homepage": "https://github.com/anantabastola/react-express-starter-pack#readme",
+  "dependencies": {
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
